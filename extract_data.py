@@ -4,7 +4,7 @@ import pandas as pd
 import time
 import random
 
-input_file = "links.xlsx"  
+input_file = "lawyer_links.xlsx"  
 output_file = "lawyers_data.xlsx"  
 
 df = pd.read_excel(input_file)
@@ -59,4 +59,5 @@ df_output.to_excel(output_file, index=False)
 
 print("✅ اطلاعات با موفقیت ذخیره شد.")
 driver.quit()
+
 
